@@ -1,0 +1,29 @@
+클래식 배기 · 1953 Studebaker
+1953 Studebaker-Starts, Rev and Idle — lonemonk
+https://freesound.org/people/lonemonk/sounds/201988/
+CC BY 4.0: https://creativecommons.org/licenses/by/4.0/
+Changes: Excerpted from the publicly linked HQ MP3 preview; downmixed to mono, resampled to 48 kHz, high-pass filtered at 28 Hz, low-pass filtered at 6 kHz, DC removed, RMS normalized to 0.37 with soft peak compression only above 0.78 full scale (ceiling 0.93), exported as PCM16 WAV. Playback uses a 60 ms overlap crossfade and keeps original playback speed with vehicle-speed-dependent volume.
+
+소형 가솔린 · Renault 19
+Renault 19 underhood acceleration — lovretta
+https://freesound.org/people/lovretta/sounds/141240/
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Changes: Excerpted from the publicly linked HQ MP3 preview; downmixed to mono, resampled to 48 kHz, high-pass filtered at 28 Hz, low-pass filtered at 6 kHz, DC removed, RMS normalized to 0.37 with soft peak compression only above 0.78 full scale (ceiling 0.93), exported as PCM16 WAV. Playback uses a 60 ms overlap crossfade and keeps original playback speed with vehicle-speed-dependent volume.
+
+디젤 트럭 · 차종 미상
+Diesel idle 1.wav — C-V
+https://freesound.org/people/C-V/sounds/565598/
+CC0 1.0: https://creativecommons.org/publicdomain/zero/1.0/
+Changes: Excerpted from the publicly linked HQ MP3 preview; downmixed to mono, resampled to 48 kHz, high-pass filtered at 28 Hz, low-pass filtered at 6 kHz, DC removed, RMS normalized to 0.37 with soft peak compression only above 0.78 full scale (ceiling 0.93), exported as PCM16 WAV. Playback uses a 60 ms overlap crossfade and keeps original playback speed with vehicle-speed-dependent volume.
+
+
+MOA collection — user-supplied Suno sounds (2026-11-11)
+The app owner supplied these five Suno creations for integration:
+- MOA DRIVE — Electric Propulsion Loop.mp3 → sound/suno/electric_propulsion.wav
+- Motor Growl.mp3 → sound/suno/motor_growl.wav
+- Silent Drive (1).mp3 → sound/suno/silent_drive_alt.wav
+- Silent Drive.mp3 → sound/suno/silent_drive.wav
+- Smooth Motor Hum.mp3 → sound/suno/smooth_motor.wav
+Processed as mono PCM loops with normalized levels and peak limiting.
+These are created driving sounds, not recordings of a named vehicle.
+Source hashes and excerpt details are in credits.json.

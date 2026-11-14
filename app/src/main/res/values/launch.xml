@@ -1,0 +1,6 @@
+<resources>
+    <color name="moa_launch_light">#FAFBFD</color>
+    <color name="moa_launch_dark">#0D131D</color>
+    <color name="moa_launch_background">@color/moa_launch_light</color>
+    <bool name="moa_launch_light_bars">true</bool>
+</resources>

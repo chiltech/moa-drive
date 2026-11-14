@@ -1,0 +1,4 @@
+<resources>
+    <color name="moa_launch_background">@color/moa_launch_dark</color>
+    <bool name="moa_launch_light_bars">false</bool>
+</resources>

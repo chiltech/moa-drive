@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Exact path and stroke from MoaLaunchMark, scaled uniformly for the launcher. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <group android:scaleX=".30" android:scaleY=".30"
+        android:translateX="23.7" android:translateY="33">
+        <path android:fillColor="@android:color/transparent"
+            android:strokeColor="#2762E8" android:strokeWidth="18"
+            android:strokeLineCap="round" android:strokeLineJoin="round"
+            android:pathData="M20,122 L20,36 C20,10 45,5 57,27 L96,95 C99,101 103,101 107,95 L145,27 C157,5 182,10 182,36 L182,122" />
+    </group>
+</vector>

@@ -1,0 +1,27 @@
+<resources>
+    <style name="Theme.MoaDrive.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">@bool/moa_launch_light_bars</item>
+        <item name="android:windowLightNavigationBar">@bool/moa_launch_light_bars</item>
+        <item name="android:statusBarColor">@color/moa_launch_background</item>
+        <item name="android:navigationBarColor">@color/moa_launch_background</item>
+        <item name="android:windowBackground">@color/moa_launch_background</item>
+    </style>
+    <style name="Theme.MoaDrive.LightBase" parent="Theme.MoaDrive.Base">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:statusBarColor">@color/moa_launch_light</item>
+        <item name="android:navigationBarColor">@color/moa_launch_light</item>
+        <item name="android:windowBackground">@color/moa_launch_light</item>
+    </style>
+    <style name="Theme.MoaDrive.DarkBase" parent="Theme.MoaDrive.Base">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:statusBarColor">@color/moa_launch_dark</item>
+        <item name="android:navigationBarColor">@color/moa_launch_dark</item>
+        <item name="android:windowBackground">@color/moa_launch_dark</item>
+    </style>
+    <style name="Theme.MoaDrive" parent="Theme.MoaDrive.Base" />
+    <style name="Theme.MoaDrive.Light" parent="Theme.MoaDrive.LightBase" />
+    <style name="Theme.MoaDrive.Dark" parent="Theme.MoaDrive.DarkBase" />
+</resources>
