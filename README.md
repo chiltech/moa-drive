@@ -7,12 +7,11 @@
 ## 제출 APK
 
 - 버전: **1.0.0** (`versionCode 2`)
-- 다운로드 파일명: **`CareMate_MOADRIVE_release.apk`**
-- 공모전 제출 파일명: **`케어메이트_모아드라이브_release.apk`**
+- 다운로드·최종 제출 파일명: **`CareMate_MOADRIVE_release.apk`**
 - [GitHub Release 및 APK 다운로드](https://github.com/chiltech/moa-drive/releases/tag/v1.0.0)
 - [APK 위치·설치 안내](apk/README.md)
 
-APK는 GitHub의 일반 저장소 파일 크기 제한을 초과하므로 **GitHub Releases**로 제공합니다. `apk/`에는 다운로드 경로와 SHA-256 검증 파일이 있습니다. GitHub가 업로드한 한글 자산명을 정규화해 다운로드 파일은 영문 이름으로 제공합니다. 제출 파일명이 필요하면 다운로드 후 `케어메이트_모아드라이브_release.apk`로 변경하세요. 파일명 변경은 APK 내용이나 SHA-256에 영향을 주지 않습니다. Release 태그가 가리키는 커밋이 해당 APK의 제출 소스입니다.
+APK는 GitHub의 일반 저장소 파일 크기 제한을 초과하므로 **GitHub Releases**로 제공합니다. `apk/`에는 다운로드 경로와 SHA-256 검증 파일이 있습니다. 다운로드한 `CareMate_MOADRIVE_release.apk`를 그대로 제출합니다. Release 태그는 해당 APK의 빌드 소스를 가리킵니다.
 
 ## 실행 화면
 
