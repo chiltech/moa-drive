@@ -37,15 +37,15 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach 
     inputs.property("navigationSecretsFingerprint", navigationSecretsFingerprint)
 }
 android {
-    namespace = "com.moagauge.pleos"
+    namespace = "com.moadrive.pleos"
     compileSdk = 35
     useLibrary("android.car")
     defaultConfig {
-        applicationId = "com.moagauge.pleos"
+        applicationId = "com.moadrive.pleos"
         minSdk = 28
         targetSdk = 35
-        versionCode = 2
-        versionName = "1.0.0"
+        versionCode = 3
+        versionName = "1.0.1"
         buildConfigField("String", "KAKAO_NATIVE_APP_KEY", "\"$kakaoKey\"")
         buildConfigField("String", "ITS_CCTV_API_KEY", "\"$itsCctvKey\"")
         buildConfigField("String", "NEIS_API_KEY", "\"$neisKey\"")

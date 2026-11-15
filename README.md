@@ -6,9 +6,9 @@
 
 ## 제출 APK
 
-- 버전: **1.0.0** (`versionCode 2`)
+- 버전: **1.0.1** (`versionCode 3`)
 - 다운로드·최종 제출 파일명: **`CareMate_MOADRIVE_release.apk`**
-- [GitHub Release 및 APK 다운로드](https://github.com/chiltech/moa-drive/releases/tag/v1.0.0)
+- [GitHub Release 및 APK 다운로드](https://github.com/chiltech/moa-drive/releases/tag/v1.0.1)
 - [APK 위치·설치 안내](apk/README.md)
 
 APK는 GitHub의 일반 저장소 파일 크기 제한을 초과하므로 **GitHub Releases**로 제공합니다. `apk/`에는 다운로드 경로와 SHA-256 검증 파일이 있습니다. 다운로드한 `CareMate_MOADRIVE_release.apk`를 그대로 제출합니다. Release 태그는 해당 APK의 빌드 소스를 가리킵니다.
@@ -49,7 +49,7 @@ APK는 GitHub의 일반 저장소 파일 크기 제한을 초과하므로 **GitH
 adb devices -l
 adb -s emulator-5554 install -r 'CareMate_MOADRIVE_release.apk'
 adb -s emulator-5554 shell am start --user current \
-  -n com.moagauge.pleos/.MainActivity
+  -n com.moadrive.pleos/.MainActivity
 ```
 
 장치가 여러 개이면 실제 Pleos 장치 serial을 사용합니다. 첫 실행에서 위치·알림 권한을 허용하면 위치 기반 메뉴와 주행기록 알림을 이용할 수 있습니다. 기존 개발용 APK와 서명이 다르면 덮어쓰기 설치가 거부되므로 별도의 새 AVD에서 실행하세요. 기존 앱을 삭제하면 저장 기록도 사라집니다.
@@ -102,7 +102,7 @@ bash ./gradlew assembleRelease \
 | Android 빌드 | AGP 8.8.2, Kotlin 2.0.0, compile/target SDK 35, min SDK 28 |
 | Pleos SDK | Vehicle 2.3.2, TextToSpeech 3.3.1 |
 | 내비게이션 SDK | Kakao Mobility KNSDK UI 1.12.8-hotfix05 |
-| 패키지명 | `com.moagauge.pleos` |
+| 패키지명 | `com.moadrive.pleos` |
 
 [Pleos 공식 개발 가이드](https://document.pleos.ai/docs/pleos-only/getting-started)를 따라 에뮬레이터와 Virtual Console을 설정하세요. Virtual Console의 속도·기어·배터리 신호를 변경하면 앱의 차량 정보와 연동됩니다. 전비·배터리 사용량 확인에는 속도뿐 아니라 배터리 에너지 신호도 변해야 합니다.
 
@@ -121,7 +121,7 @@ Kakao 키 해시 등록 방법은 [공식 KNSDK 시작하기](https://developers
 최종 release 검증 결과는 [검증 기록](docs/VERIFICATION.md)에 정리합니다.
 
 ```text
-app/src/main/java/com/moagauge/pleos/
+app/src/main/java/com/moadrive/pleos/
   vehicle/       Pleos 차량 신호와 전비 계산
   navigation/    제공자 인터페이스·카카오 지도·길 안내
   trips/         자동 주행기록과 비용 계산
